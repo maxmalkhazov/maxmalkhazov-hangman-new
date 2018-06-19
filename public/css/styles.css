@@ -1,0 +1,148 @@
+* {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+}
+
+html {
+     font-size: 62.5%;
+}
+
+body {
+     background: #2B292E;
+     color: #fafafa;
+     font-family: 'Lato', Arial, sans-serif;
+     font-size: 1.6rem;
+}
+
+#header {
+     margin-bottom: 4rem;
+     background: #7044a0;
+     padding: 3rem 0;
+}
+
+.title {
+     text-align: center;
+     font-size: 3.5rem;
+     text-transform: uppercase;
+}
+
+#menu {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+#main {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+#main-box {
+     /*options*/
+}
+
+.level {
+     margin-bottom: 6rem;
+}
+
+.game {
+     margin-bottom: 3rem;
+}
+
+.level, .game {
+     border: 1px solid #534f59;
+     display: inline-block;
+     height: 4rem;
+     width: auto;
+     padding: .8rem 1.2rem;
+     cursor: pointer;
+     transition: background .3s ease-in-out;
+}
+
+
+.level:first-child, .game:first-child {
+     margin-left: 2rem;
+}
+
+.letter {
+     border: 1px solid #534f59;
+     display: inline-block;
+     height: auto;
+     line-height: 2.4rem;
+     margin: 0 .5rem;
+     padding: 1rem;
+     text-align: center;
+     text-transform: uppercase;
+     width: 5rem;
+}
+
+.win {
+     background-color: #7044a0;
+     color: #fff;
+}
+
+#flag-box {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-bottom: 3rem;
+}
+
+#flag {
+     width: 100px;
+     height: auto;
+}
+
+.lose {
+     background-color: #2B292E;
+     color: #fafafa;
+}
+
+.selected {
+     background-color: #fafafa;
+     color: #2B292E;
+}
+
+#guesses {
+     text-align: center;
+     font-size: 2rem;
+}
+
+#puzzle {
+     font-family: 'Mada', Arial, sans-serif;
+     font-weight: 700;
+     display: flex;
+     margin-bottom: 4.8rem;
+     font-size: 3.75rem;
+}
+
+
+#btn {
+     text-align: center;
+     margin-bottom: 3rem;
+}
+
+.button {
+     margin-top: 5rem;
+     background: #7044a0;
+     border: none;
+     outline: none;
+     border-bottom: 2px solid #603a88;
+     cursor: pointer;
+     color: white;
+     font-size: 1.75rem;
+     font-weight: 100;
+     padding: .8rem 1.2rem;
+     transition: background .3s ease, color .3s ease;
+}
+
+.button:hover {
+     background: #5F3A87;
+}
+
+.hangman-image {
+     background: white;
+}
