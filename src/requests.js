@@ -31,7 +31,7 @@ const getPuzzle = async (difficulty, gameOption) => {
 				})
 			}
 		});
-		const random =  await Math.floor(Math.random() * newArr.length);
+		const random = await Math.floor(Math.random() * newArr.length);
 		const selectedCountry = newArr[random];
 		const selectedCountryName = selectedCountry.name
 		const selectedCountryFlag = selectedCountry.flag;

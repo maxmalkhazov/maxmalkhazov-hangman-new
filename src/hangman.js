@@ -26,6 +26,7 @@ class Hangman {
 		if (this.status === 'playing') {
 			if (isUnique) {
 				this.guessedLetters.push(guess);
+				// this.guessedLetters = [...this.guessedLetters, guess] = Using the spread syntax instead
 			}	
 			
 			if (isUnique && isBadGuess) {
